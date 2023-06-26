@@ -1,0 +1,73 @@
+/* Apply general styles to form elements */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Optional: Customize the form layout and appearance */
+form {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+/* Optional: Style specific form elements */
+.dateInput {
+  display: inline-block;
+}
+
+.dateInput input[type="text"] {
+  width: 80px;
+}
+
+.dateOnlyInput {
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 80px;
+}
+
+/* Optional: Style the submit button */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
